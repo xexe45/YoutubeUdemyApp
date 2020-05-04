@@ -1,0 +1,30 @@
+<mat-toolbar class="example-header">
+  <div>
+    <button (click)="toggle()" mat-icon-button aria-label="Example icon button with a vertical three dot icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <img width="100" src="assets/imgs/logo.png" class="img-fluid" alt="">
+  </div>
+  <div class="input-group">
+    <input type="text" class="form-control" placeholder="Buscar" aria-label="Recipient's username"
+      aria-describedby="basic-addon2">
+    <div class="input-group-append">
+      <span class="input-group-text" id="basic-addon2">
+        <mat-icon aria-hidden="false" aria-label="Example home icon">
+          search
+        </mat-icon>
+      </span>
+    </div>
+  </div>
+  <div class="icons">
+    <button mat-icon-button aria-label="video_call">
+      <mat-icon>video_call</mat-icon>
+    </button>
+    <button mat-icon-button aria-label="apps">
+      <mat-icon>apps</mat-icon>
+    </button>
+    <button mat-icon-button aria-label="notifications">
+      <mat-icon>notifications</mat-icon>
+    </button>
+  </div>
+</mat-toolbar>

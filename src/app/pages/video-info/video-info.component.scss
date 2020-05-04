@@ -1,0 +1,35 @@
+.pad {
+  padding: 20px 10px;
+
+  .title {
+    margin-top: 20px;
+    color: #333333;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .info {
+    font-size: 14px;
+  }
+
+  .videos {
+    height: 450px;
+    overflow: scroll;
+    overflow-x: hidden;
+
+    .video-data {
+      cursor: pointer;
+
+      .video-list-info {
+        padding: 0 !important;
+
+        .video-list-title {
+          font-size: 12px;
+        }
+      }
+    }
+
+
+  }
+
+}

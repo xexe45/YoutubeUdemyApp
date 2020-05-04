@@ -1,0 +1,12 @@
+<div class="container-fluid">
+  <div class="row pad">
+    <div class="col-md-12">
+      <h2>Lista de Videos</h2>
+    </div>
+  </div>
+  <div class="row pad2">
+    <div *ngFor="let video of videos" class="col-md-3" (click)="watchVideo(video)">
+      <app-video [video]="video"></app-video>
+    </div>
+  </div>
+</div>

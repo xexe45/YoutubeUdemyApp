@@ -1,0 +1,18 @@
+.example-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+
+  .input-group {
+    width: 40%;
+  }
+
+  .icons {
+    color: #606060;
+  }
+
+}

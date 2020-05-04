@@ -1,0 +1,10 @@
+<app-navbar (emitEvent)="toggle($event)"></app-navbar>
+<mat-sidenav-container class="example-container">
+  <mat-sidenav [(opened)]="opened" mode="side" class="example-sidenav">
+    <app-sidenav></app-sidenav>
+  </mat-sidenav>
+  <div class="container-fluid content" id="content">
+    <!--<app-navbar (side)="toogle($event)"></app-navbar>-->
+    <router-outlet></router-outlet>
+  </div>
+</mat-sidenav-container>

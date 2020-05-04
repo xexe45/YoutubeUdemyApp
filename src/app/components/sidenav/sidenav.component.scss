@@ -1,0 +1,33 @@
+.side {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+
+
+  .enlace {
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+
+
+    .ti {
+      margin-left: 15px;
+      font-size: 14px !important;
+      text-decoration: none;
+      color: #333333;
+      font-weight: 500;
+
+
+    }
+  }
+
+  .activo {
+    mat-icon {
+      color: red;
+    }
+
+    background: #dddddd;
+  }
+}
